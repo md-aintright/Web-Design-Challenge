@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css" integrity="sha384-mhpbKVUOPCSocLzx2ElRISIORFRwr1ZbO9bAlowgM5kO7hnpRBe+brVj8NNPUiFs" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Cloudiness</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Visualizations</a>
+                <div class="dropdown-menu">
+                  <a href="visualization-1.html" class="dropdown-item">Max Temperature</a>
+                  <a href="visualization-2.html" class="dropdown-item">Humidity</a>
+                  <a href="visualization-3.html" class="dropdown-item">Cloudiness</a>
+                  <a href="visualization-4.html" class="dropdown-item">Wind Speed</a>
+                </div>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparisons.html">Comparisons</a>
+            </li>>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container">
+        <!--Normally these medium columns go full wide on small screen sizes-->
+        <div class="row">
+            <div class="col-md-12">
+                <h1></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                
+                    <h2>Cloudiness</h2>
+                    <hr class="my-4">
+                    <p class="lead"><img src="assets/images/Fig3.png" alt="Cloudiness" style="max-width:100%;max-height:100%">
+                        Continents tend to be less cloudy than adjacent oceans (at the same latitude), except in the equatorial belt. On average, cloudiness is highest around 60 degrees S (about 80% of the time) but there is only 40% cloud cover at the South Pole. These figures reflect the ascent and subsidence occurring at these respective latitudes, and the large amount of ocean at around 60 degrees S. Satellite-based cloudiness estimates over surfaces covered by snow or ice are somewhat uncertain, especially at night. The subsidence at 20 - 30 degrees latitude in both hemispheres leads to 45 - 50% cloud cover there. This is mostly stratus clouds off the west coasts of continents, and cumulonimbus clouds over the continents in summer. At latitudes above 50 degrees N, the annual average cloud cover is about 70%. At the North Pole there is 50% cloudiness in winter and 90% in summer (sample text obrained from http://www-das.uwyo.edu/~geerts/cwx/notes/chap08/cloud_lat.html#:~:text=Continents%20tend%20to%20be%20less,except%20in%20the%20equatorial%20belt.&text=At%20latitudes%20above%2050%EF%BF%BD,winter%20and%2090%25%20in%20summer.). 
+                    </p>
+                
+            </div>
+            <div class="col-lg-4">
+                
+                    <h3>Visualizations</h3>
+                    <hr class="my-4">
+                    <div class="column">
+                        <a href="visualization-1.html">
+                            <img class="thumb" src="assets/images/Fig1.png" alt="Max Temperature" style="width:175px;height:175px;">
+                        </a>
+                        <a href="visualization-3.html">
+                            <img class="thumb" src="assets/images/Fig3.png" alt="Cloudiness" style="width:175px;height:175px;border: 1px solid #18BC9C;">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="visualization-2.html">
+                            <img class="thumb" src="assets/images/Fig2.png" alt="Humidity" style="width:175px;height:175px;">
+                        </a>
+                        <a href="visualization-4.html">
+                            <img class="thumb" src="assets/images/Fig4.png" alt="Wind Speed" style="width:175px;height:175px;">
+                        </a>
+                    </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
